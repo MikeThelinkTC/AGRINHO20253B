@@ -97,9 +97,11 @@ section {
 .imagem-ajustada-800 {
     width: 800px;
     height: 800px;
-    object-fit: cover;      /* Corta a imagem para caber sem distorcer */
-    border-radius: 10px;    /* Opcional: cantos arredondados */
-    display: block;         /* Garante que respeite o tamanho definido */
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;            /* Faz a imagem ocupar uma linha inteira */
+    margin-left: auto;         /* Centraliza */
+    margin-right: auto;        /* Centraliza */
 }
 
 h2 {
