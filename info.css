@@ -94,20 +94,19 @@ section {
     /* Garante que o conteúdo fica acima das imagens do background */
 }
 
+.imagem-ajustada-800 {
+    width: 800px;
+    height: 800px;
+    object-fit: cover;      /* Corta a imagem para caber sem distorcer */
+    border-radius: 10px;    /* Opcional: cantos arredondados */
+    display: block;         /* Garante que respeite o tamanho definido */
+}
 
 h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
     color: var(--laranja-claro);
-}
-
-#contato {
-    background-image: url('img/4965007.jpg');
-    background-size: cover;
-    padding: 4rem 0;
-    /* Espaçamento interno para a seção de contato */
-
 }
 
 .formulario {
@@ -129,10 +128,4 @@ h2 {
 
 .form-control {
     background-color: #F1EDEF;
-}
-.menu-acessibilidade{
-    position: fixed;
-    top:2rem;
-    right:20px;
-    z-index: 1000;
 }
