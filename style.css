@@ -137,3 +137,12 @@ h2 {
     right:20px;
     z-index: 1000;
 }
+
+.img-header {
+    width: 800px !important;
+    height: 800px !important;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
