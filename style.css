@@ -137,3 +137,11 @@ h2 {
     right:20px;
     z-index: 1000;
 }
+
+.img-header {
+    width: 800px;
+    height: 800px;
+    object-fit: cover;    /* Faz a imagem preencher sem distorcer */
+    display: block;       /* Para permitir centralizar com margin */
+    margin: 0 auto;       /* Centraliza horizontalmente */
+}
